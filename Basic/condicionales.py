@@ -46,6 +46,13 @@ if salarioJ < salarioD < salarioP:
 else:
     print("hay algun problema")
 
+#And OR I
 
+print("programa de becas")
 
+asignatura =  input("Ingresar asignatura: ").lower()
 
+if asignatura in ("fisica", "informatica", "matematicas"):
+    print("Si esta en la asignatura: " + asignatura)
+else:  
+    print("No puedes ver esta asignatura")
