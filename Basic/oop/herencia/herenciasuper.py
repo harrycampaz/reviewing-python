@@ -15,6 +15,9 @@ class Empleado(Persona):
         self.antiguedad = antiguedad
 
 
+    def descripcion(self):
+        super().descripcion()
+        print(f"Salario{self.salario} y Antiguedad: {self.antiguedad}")
 
 
 harry = Persona("Harry", 23, "Tura")
@@ -24,3 +27,5 @@ harry.descripcion()
 ender = Empleado(10000, 23, "ander", 32, "Medellin")
 
 ender.descripcion()
+
+print(isinstance(harry, Empleado))
