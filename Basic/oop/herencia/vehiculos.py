@@ -62,4 +62,4 @@ class BicicletaElectrica(Vehiculo, VElectrico):
 
 #Herencias Multiples
 #Toma el constructor de la primera clase en la herencia multiple
-miBici = BicicletaElectrica
+miBici = BicicletaElectrica("Hawa", "Cons")
