@@ -21,6 +21,7 @@ print(next(misPares))
 print(next(misPares))
 
 
+
 # Yield from
 
 def ciudadesGenerator(*ciudades):

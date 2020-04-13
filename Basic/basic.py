@@ -140,13 +140,15 @@ def suma(num1, num2, num3):
 # for i in range(3):
 #     print(i)
 
-def factorial(n):
+# def factorial(n):
 
-    print(n)
-    if n == 1:
-        return 1
-    return n * factorial(n - 1)
+#     print(n)
+#     if n == 1:
+#         return 1
+#     return n * factorial(n - 1)
 
-n = int(input('Escribe un numero'))
+# n = int(input('Escribe un numero'))
 
-print(factorial(n))
+# print(factorial(n))
+5 / 'Platzi' 
+
