@@ -152,3 +152,14 @@ def suma(num1, num2, num3):
 # print(factorial(n))
 5 / 'Platzi' 
 
+
+def form(x):
+	respuesta = 0
+	for i in range (2000):
+	    respuesta += 1
+
+return respuesta
+
+
+
+form(2)
